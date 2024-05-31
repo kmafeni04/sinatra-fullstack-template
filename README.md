@@ -6,23 +6,25 @@ This project is a minimal template for a full-stack web application using the Si
 
 ```
 sinatra-fullstack-template/
-├── Dockerfile
-├── Gemfile
-├── Gemfile.lock
-├── README.md
-├── Rakefile
 ├── app.rb
 ├── config.rb
 ├── controllers
-│   └── generic_controller.rb
+│   └── generic_controller.rb
+├── db
+│   └── migrate
+│       └── 20240529192516_create_users.rb
+├── Dockerfile
+├── Gemfile
+├── Gemfile.lock
 ├── models
-│   └── user.rb
+│   └── user.rb
 ├── public
-│   ├── css
-│   │   └── app.css
-│   ├── js
-│   │   └── live.js.js
-│   └── index.html
+│   ├── css
+│   │   └── app.css
+│   └── js
+│       └── live.js.js
+├── Rakefile
+├── README.md
 ├── routes.rb
 └── views
     ├── app_layout.erb

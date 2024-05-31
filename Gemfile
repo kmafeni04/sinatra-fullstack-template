@@ -12,3 +12,5 @@ gem 'ruby-lsp'
 gem 'sinatra'
 gem 'sinatra-activerecord'
 gem 'sqlite3', '~> 1.4'
+
+gem "rackup", "~> 2.1"
