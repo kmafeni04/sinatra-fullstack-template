@@ -36,7 +36,7 @@ sinatra-fullstack-template/
 Before running the application, you need to have the following installed:
 
 - [Ruby](https://www.ruby-lang.org/en/)
-- [Bundle](https://github.com/rubygems/bundler), a Gem dependency manager for Ruby
+- [Bundle](https://bundler.io/), a Gem dependency manager for Ruby
 
 ## Addition tools used
 
